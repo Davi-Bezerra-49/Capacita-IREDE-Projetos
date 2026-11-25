@@ -93,17 +93,17 @@ Invoke-RestMethod -Uri "http://<IP_DA_EC2>:5000/pedidos" -Method Post -ContentTy
 
 ### EC2 rodando (API de Produtos e Pedidos)
 
-![Resposta da API de Produtos](01-api-produtos.jpg)
+![Resposta da API de Produtos](evidencias/01-api-produtos.jpg)
 
-![Resposta da API de Pedidos enviando ao SQS](02-api-pedidos.jpg)
+![Resposta da API de Pedidos enviando ao SQS](evidencias/02-api-pedidos.jpg)
 
 ### Mensagem chegando no SQS
 
-![Fila pedidos-a-processar no console AWS](03-sqs-fila.png)
+![Fila pedidos-a-processar no console AWS](evidencias/03-sqs-fila.png)
 
 ### Log da Lambda no CloudWatch
 
-![Log da Lambda mostrando o pedido recebido](04-cloudwatch-log.png)
+![Log da Lambda mostrando o pedido recebido](evidencias/04-cloudwatch-log.png)
 
 ### Saída do `terraform apply`
 
